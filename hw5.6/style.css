@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(image/pedro-lastra-Nyvq2juw4_o-unsplash\ \(1\).jpg);
+    background-size: cover;
+    /* opacity: 0.2; */
+}
+.login-box{
+    position: relative;
+    width: 250px;
+    height: 330px;
+    background: #7F00FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom,#7F00FF, #E100FF );  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom , #7F00FF, #E100FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 12rem auto;
+    border-radius: 10px;
+    text-align: center;
+}
+.alt-top{
+    position: absolute;
+    background-color: #fff;
+    color: black;
+    border-radius: 50%;
+    padding: 12px;
+    align-items: center;
+    left: 100px;
+    top: 15px;
+}
+.box{
+    text-align: center;
+}
+.bi-image-alt{
+    font-size: 25px;
+}
+h1{
+    position: absolute;
+    top: 80px;
+    left: 90px;
+    font-size: 20px;
+    color: #fff;
+}
+.user-input{
+    position: relative;
+    text-align: center;
+}
+.bi-person-fill{
+    position: absolute;
+    top: 160px;
+    left: -40px;
+    color: #FBE9FF;
+}
+.username{
+    position: absolute;
+    padding-bottom: 5px;
+    top: 150px;
+    left: 65px;
+    border: none;
+    background-color: #AD00FF;
+    color: #FFF;
+    border-bottom: 1px solid #FBE9FF ;
+}
+.bi-lock-fill{
+    position: absolute;
+    top: -140px;
+    left: -40px;
+    color: #FBE9FF; 
+}
+.password{
+    position: absolute;
+    padding-bottom: 5px;
+    top: 180px;
+    left: 65px;
+    border: none;
+    background-color: #B600FF;
+    color: #FBE9FF;
+    border-bottom: 1px solid #FBE9FF ;
+}
+.checkbox{
+    position: absolute;
+    top: 210px;
+    left: 42px;
+    border: none;
+}
+span{
+    color: #e8cef2;
+    position: absolute;
+    left: 60px;
+    bottom: 105px;
+    font-size: 10px;
+}
+button{
+    background-color: #fff;
+    color: #808080;
+    position: absolute;
+    bottom: 60px;
+    border-radius: 30px;
+    padding: 8px 30px;
+    left: 77px;
+    border: none;
+    cursor: pointer;
+}
+a{
+    position: absolute;
+    color: #e8cef2;
+    bottom: 10px;
+    left: 82px;
+    font-size: 12px;
+}
