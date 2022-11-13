@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100%;
+    display: grid;
+    grid-column: 1/-1;
+    grid-template-rows: 3fr 2fr 3fr 2fr 3fr 0.5fr;
+    text-align: center;
+}
+.header{
+    background-color: #333333;    
+    text-align: center;
+}
+.header div{
+    padding: 25px 0;
+}
+.header p ,h1 {
+    color: #fff;
+}
+button{
+    background-color: #333333;
+    color: #fff;
+    padding: 10px 15px;
+    border: 1px solid rgb(117, 111, 111);
+}
+.title{
+    background-color: #EAEAEA;
+}
+.title h2 , p{
+    color: black;
+}
+.title-box{
+    display: grid;
+    grid-template-columns: repeat(2 , 350px);
+    justify-content: center;
+}
+.main{
+    background-color: #333333;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    align-content: center;
+    justify-content: center;
+}
+.main p{
+    font-size: 12px;
+}
+.main div{
+    background-color: #FFF;
+    width: 200px;
+    height: 150px;
+    display: grid;
+    margin-left: 120px;
+}
+
+
+.handle{
+    background-color: #FFF;
+    display: grid;
+    justify-content: center;
+}
+.handle h2 {
+    padding-top: 15px;
+}
+
+
+.about{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    color: #FFF;
+}
+.about div{
+    display: grid;
+}
+.right{
+  background-color: #333333;
+}
+.right p , span{
+    color: #FFF;
+}
+.left{
+    background-color: #2690D4;
+}
+.left p , span{
+    color: #FFF;
+}
+
+
+.footer{
+    background-color: #000;
+    display: grid;
+    grid-template-columns: repeat(2 , max-content);
+    color: #FFF;
+    justify-content: space-around;
+}
+.footer span{
+    color: rgb(27,112,165);
+    font-size: 15px;
+}
+.footer p{
+    color: white;
+}
+
+@media screen and (max-width: 970px){
+ .container{
+    grid-template-rows: 4fr 2fr 3fr 2fr 3fr 0.5fr;
+ }
+ .header div{
+    padding: 25px 20px;
+ }
+ .header p ,h1 {
+    font-size: 15px;
+}
+.title h2 , p{
+   font-size: 15px;
+}
+.main div{
+    width: 150px;
+    height: 100px;
+    display: grid;
+    margin-left: 50px;
+    font-size: 12px;
+}
+.handle h2 , p {
+    font-size: 15px;
+}
+}
+
+@media screen and (max-width: 700px){
+    .container{
+       grid-template-rows: 4fr 2fr 5fr 2fr 4fr 1fr;
+    }
+    .header div{
+       padding: 25px 20px;
+    }
+    .header p ,h1 {
+       font-size: 10px;
+   }
+   .title h2 , p{
+      font-size: 10px;
+   }
+   .main div{
+       width: 100px;
+       height: 130px;
+       display: grid;
+       margin-left: 50px;
+       font-size: 8px;
+   }
+   .handle h2 , p {
+       font-size: 10px;
+   }
+   .left p , span{
+    font-size: 10px;
+   }
+   .about{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    color: #FFF;
+}
+   
+}
