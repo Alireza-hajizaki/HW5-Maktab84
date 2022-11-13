@@ -1,0 +1,18 @@
+.services{
+    text-align: center;
+}
+.service {
+    display: grid;
+    grid-template-columns: repeat(12 , 1fr);
+    grid-template-rows: repeat(5 , auto);
+    justify-content: center;
+    text-align: center;
+}
+img{
+    width: 100px;
+}
+.servises-section{
+    display: grid;
+    grid-template-columns: repeat(12 , 1fr);
+    padding-top: 30px;
+}

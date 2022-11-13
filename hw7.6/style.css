@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 40%;
+    background-color: #ADD8E6;
+    margin: 2rem auto;
+    font-size: 20px;
+}
+.width-input{
+ width: 100%;
+ padding: 10px;
+ margin-bottom: 15px; 
+ border: none;
+}
+.top-form{
+    margin: 15px;
+}
+input{
+    outline: none;
+}
+button{
+    background-color: #56B35F;
+    color: white;
+    padding: 17px 40px;
+    width: 80%;
+    align-self: center;
+    cursor: pointer;
+    border: 1px solid #56B35F;
+}
+h2{
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+.select-btn{
+padding: 5px;
+background-color: #fff;
+font-size: 15px;
+margin-bottom: 5px;
+cursor: pointer;
+}
+.btn{
+    text-align: center;
+}
+.text-area{
+    height: 100px;
+}
+

@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+   display: grid;
+   grid-template-rows: 60vh 20vh 80vh;
+}
+.servises-btn{
+    background-color: #3182BF;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    height: 40px;
+}

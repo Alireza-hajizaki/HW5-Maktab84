@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="" class="form-validation">
+            <fieldset>
+                <div class="top-form">
+                    <h2>Student Registeration Form</h2>
+                    
+                  <label>Firstname :</label>
+                  <input type="text" placeholder="Firstname" class="width-input" required>
+                  <label>Middlename :</label>
+                  <input type="text" placeholder="Middlename" class="width-input" required>
+                  <label>Lastname :</label>
+                  <input type="text" placeholder="Lastname" class="width-input" required>
+
+                  <labe>course :</labe>
+                  <select class="select-btn">
+                      <option>course</option>
+                      <option>Java</option>
+                  </select><br>
+
+                  <label>Gender :</label><br>
+                  <label>Male </label><input type="radio" name="section" value="Male" checked>
+                  <label>Female </label><input type="radio" name="section" value="Female">
+                  <label>Other </label><input type="radio" name="section" value="Other"><br><br>
+
+                  <label>Phone :</label>
+                  <input type="tel" value="+21" class="width-input" required>
+                  <input type="tel" class="width-input" placeholder="phone no." required>
+
+                  <label>Current Address :</label>
+                  <input type="textarea" class="width-input text-area" placeholder="current Address"></textarea>
+
+                  <label>Email :</label>
+                  <input type="email" class="width-input email" placeholder="Enter Email" required>
+
+                  <label>Password :</label>
+                  <input type="password" class="width-input pass" placeholder="Enter Password" required>
+                  <label>Re-type Password :</label>
+                  <input type="password" class="width-input re-pass" placeholder="Retype password" required>
+                <div class="btn">
+                    <button value="submit" class="submit">Register</button>
+                </div>
+
+            
+                </div>
+            </fieldset>
+       </form>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
