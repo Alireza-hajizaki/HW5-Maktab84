@@ -1,0 +1,335 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css"
+        integrity="sha384-7ynz3n3tAGNUYFZD3cWe5PDcE36xj85vyFkawcF6tIwxvIecqKvfwLiaFdizhPpN" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+
+<body dir="auto">
+    <div class="container d-flex justify-space-between align-items-start w-100 h-100">
+        <main class="white-2-bg-color w-70-percent h-100 rounded-12 ltr-dir d-flex flex-col">
+            <header class="d-flex align-items-center justify-content-center w-100 padding-20">
+                <h1 class="">رستوران مک دونالد شعبه تهران</h1>
+            </header>
+            <section
+                class="overflow-y-scroll padding-top-32 d-flex flex-1 align-items-start justify-content-center flex-wrap flex-row-reverse">
+                <div class="food-card padding-8 rounded-8 d-flex flex-row-reverse justify-space-between position-relative">
+                    <div class="wrapper d-flex flex-row-reverse gap-10">
+                        <div class="card-image">
+                            <img src="./src/img/hamburger.png" alt="">
+                        </div>
+                        <div class="food-detail d-flex flex-col justify-space-between align-items-end">
+                            <div class="wrapper d-flex flex-col align-items-end">
+                                <h1 class="food-name">همبرگر معمولی</h1>
+                                <div class="food-price d-flex flex-row-reverse gap-4">
+                                    <span class="food-price-number">8000</span>
+                                    <span>تومان</span>
+                                </div>
+                            </div>
+                            <div class="counter d-flex">
+                                <button class="counter-btn-decrement"><i class="bi bi-dash fs-24"></i></button>
+                                <span
+                                    class="counter-number d-flex justify-content-center align-items-center w-20">0</span>
+                                <button class="counter-btn-increment"><i class="bi bi-plus fs-24"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-total-price d-flex flex-row-reverse gap-4 position-absolute left-8">
+                        <span class="food-total-price-number">0</span>
+                        <span>تومان</span>
+                    </div>
+                </div>
+                <div class="food-card padding-8 rounded-8 d-flex flex-row-reverse justify-space-between position-relative">
+                    <div class="wrapper d-flex flex-row-reverse gap-10">
+                        <div class="card-image">
+                            <img src="./src/img/hamburger.png" alt="">
+                        </div>
+                        <div class="food-detail d-flex flex-col justify-space-between align-items-end">
+                            <div class="wrapper d-flex flex-col align-items-end">
+                                <h1 class="food-name">همبرگر مخصوص</h1>
+                                <div class="food-price d-flex flex-row-reverse gap-4">
+                                    <span class="food-price-number">10000</span>
+                                    <span>تومان</span>
+                                </div>
+                            </div>
+                            <div class="counter d-flex">
+                                <button class="counter-btn-decrement"><i class="bi bi-dash fs-24"></i></button>
+                                <span
+                                    class="counter-number d-flex justify-content-center align-items-center w-20">0</span>
+                                <button class="counter-btn-increment"><i class="bi bi-plus fs-24"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-total-price d-flex flex-row-reverse gap-4 position-absolute left-8">
+                        <span class="food-total-price-number">0</span>
+                        <span>تومان</span>
+                    </div>
+                </div>
+                <div class="food-card padding-8 rounded-8 d-flex flex-row-reverse justify-space-between position-relative">
+                    <div class="wrapper d-flex flex-row-reverse gap-10">
+                        <div class="card-image">
+                            <img src="./src/img/hamburger.png" alt="">
+                        </div>
+                        <div class="food-detail d-flex flex-col justify-space-between align-items-end">
+                            <div class="wrapper d-flex flex-col align-items-end">
+                                <h1 class="food-name">همبرگر معمولی با قارچ و پنیر</h1>
+                                <div class="food-price d-flex flex-row-reverse gap-4">
+                                    <span class="food-price-number">10000</span>
+                                    <span>تومان</span>
+                                </div>
+                            </div>
+                            <div class="counter d-flex">
+                                <button class="counter-btn-decrement"><i class="bi bi-dash fs-24"></i></button>
+                                <span
+                                    class="counter-number d-flex justify-content-center align-items-center w-20">0</span>
+                                <button class="counter-btn-increment"><i class="bi bi-plus fs-24"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-total-price d-flex flex-row-reverse gap-4 position-absolute left-8">
+                        <span class="food-total-price-number">0</span>
+                        <span>تومان</span>
+                    </div>
+                </div>
+                <div class="food-card padding-8 rounded-8 d-flex flex-row-reverse justify-space-between position-relative">
+                    <div class="wrapper d-flex flex-row-reverse gap-10">
+                        <div class="card-image">
+                            <img src="./src/img/hamburger.png" alt="">
+                        </div>
+                        <div class="food-detail d-flex flex-col justify-space-between align-items-end">
+                            <div class="wrapper d-flex flex-col align-items-end">
+                                <h1 class="food-name">همبرگر مخصوص با قارچ و پنیر</h1>
+                                <div class="food-price d-flex flex-row-reverse gap-4">
+                                    <span class="food-price-number">20000</span>
+                                    <span>تومان</span>
+                                </div>
+                            </div>
+                            <div class="counter d-flex">
+                                <button class="counter-btn-decrement"><i class="bi bi-dash fs-24"></i></button>
+                                <span
+                                    class="counter-number d-flex justify-content-center align-items-center w-20">0</span>
+                                <button class="counter-btn-increment"><i class="bi bi-plus fs-24"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-total-price d-flex flex-row-reverse gap-4 position-absolute left-8">
+                        <span class="food-total-price-number">0</span>
+                        <span>تومان</span>
+                    </div>
+                </div>
+                <div class="food-card padding-8 rounded-8 d-flex flex-row-reverse justify-space-between position-relative">
+                    <div class="wrapper d-flex flex-row-reverse gap-10">
+                        <div class="card-image">
+                            <img src="./src/img/french_fries.png" alt="">
+                        </div>
+                        <div class="food-detail d-flex flex-col justify-space-between align-items-end">
+                            <div class="wrapper d-flex flex-col align-items-end">
+                                <h1 class="food-name">سیب زمینی سرخ کرده ویژه</h1>
+                                <div class="food-price d-flex flex-row-reverse gap-4">
+                                    <span class="food-price-number">25000</span>
+                                    <span>تومان</span>
+                                </div>
+                            </div>
+                            <div class="counter d-flex">
+                                <button class="counter-btn-decrement"><i class="bi bi-dash fs-24"></i></button>
+                                <span
+                                    class="counter-number d-flex justify-content-center align-items-center w-20">0</span>
+                                <button class="counter-btn-increment"><i class="bi bi-plus fs-24"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-total-price d-flex flex-row-reverse gap-4 position-absolute left-8">
+                        <span class="food-total-price-number">0</span>
+                        <span>تومان</span>
+                    </div>
+                </div>
+                <div class="food-card padding-8 rounded-8 d-flex flex-row-reverse justify-space-between position-relative">
+                    <div class="wrapper d-flex flex-row-reverse gap-10">
+                        <div class="card-image">
+                            <img src="./src/img/french_fries.png" alt="">
+                        </div>
+                        <div class="food-detail d-flex flex-col justify-space-between align-items-end">
+                            <div class="wrapper d-flex flex-col align-items-end">
+                                <h1 class="food-name">سیب زمینی سرخ کرده</h1>
+                                <div class="food-price d-flex flex-row-reverse gap-4">
+                                    <span class="food-price-number">10000</span>
+                                    <span>تومان</span>
+                                </div>
+                            </div>
+                            <div class="counter d-flex">
+                                <button class="counter-btn-decrement"><i class="bi bi-dash fs-24"></i></button>
+                                <span
+                                    class="counter-number d-flex justify-content-center align-items-center w-20">0</span>
+                                <button class="counter-btn-increment"><i class="bi bi-plus fs-24"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-total-price d-flex flex-row-reverse gap-4 position-absolute left-8">
+                        <span class="food-total-price-number">0</span>
+                        <span>تومان</span>
+                    </div>
+                </div>
+                <div class="food-card padding-8 rounded-8 d-flex flex-row-reverse justify-space-between position-relative">
+                    <div class="wrapper d-flex flex-row-reverse gap-10">
+                        <div class="card-image">
+                            <img src="./src/img/soda.png" alt="">
+                        </div>
+                        <div class="food-detail d-flex flex-col justify-space-between align-items-end">
+                            <div class="wrapper d-flex flex-col align-items-end">
+                                <h1 class="food-name">نوشابه رژیمی</h1>
+                                <div class="food-price d-flex flex-row-reverse gap-4">
+                                    <span class="food-price-number">6000</span>
+                                    <span>تومان</span>
+                                </div>
+                            </div>
+                            <div class="counter d-flex">
+                                <button class="counter-btn-decrement"><i class="bi bi-dash fs-24"></i></button>
+                                <span
+                                    class="counter-number d-flex justify-content-center align-items-center w-20">0</span>
+                                <button class="counter-btn-increment"><i class="bi bi-plus fs-24"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-total-price d-flex flex-row-reverse gap-4 position-absolute left-8">
+                        <span class="food-total-price-number">0</span>
+                        <span>تومان</span>
+                    </div>
+                </div>
+                <div class="food-card padding-8 rounded-8 d-flex flex-row-reverse justify-space-between position-relative">
+                    <div class="wrapper d-flex flex-row-reverse gap-10">
+                        <div class="card-image">
+                            <img src="./src/img/soda.png" alt="">
+                        </div>
+                        <div class="food-detail d-flex flex-col justify-space-between align-items-end">
+                            <div class="wrapper d-flex flex-col align-items-end">
+                                <h1 class="food-name">نوشابه</h1>
+                                <div class="food-price d-flex flex-row-reverse gap-4">
+                                    <span class="food-price-number">5000</span>
+                                    <span>تومان</span>
+                                </div>
+                            </div>
+                            <div class="counter d-flex">
+                                <button class="counter-btn-decrement"><i class="bi bi-dash fs-24"></i></button>
+                                <span
+                                    class="counter-number d-flex justify-content-center align-items-center w-20">0</span>
+                                <button class="counter-btn-increment"><i class="bi bi-plus fs-24"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-total-price d-flex flex-row-reverse gap-4 position-absolute left-8">
+                        <span class="food-total-price-number">0</span>
+                        <span>تومان</span>
+                    </div>
+                </div>
+                <div class="food-card padding-8 rounded-8 d-flex flex-row-reverse justify-space-between position-relative">
+                    <div class="wrapper d-flex flex-row-reverse gap-10">
+                        <div class="card-image">
+                            <img src="./src/img/salad.png" alt="">
+                        </div>
+                        <div class="food-detail d-flex flex-col justify-space-between align-items-end">
+                            <div class="wrapper d-flex flex-col align-items-end">
+                                <h1 class="food-name">سالاد فصل</h1>
+                                <div class="food-price d-flex flex-row-reverse gap-4">
+                                    <span class="food-price-number">8000</span>
+                                    <span>تومان</span>
+                                </div>
+                            </div>
+                            <div class="counter d-flex">
+                                <button class="counter-btn-decrement"><i class="bi bi-dash fs-24"></i></button>
+                                <span
+                                    class="counter-number d-flex justify-content-center align-items-center w-20">0</span>
+                                <button class="counter-btn-increment"><i class="bi bi-plus fs-24"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-total-price d-flex flex-row-reverse gap-4 position-absolute left-8">
+                        <span class="food-total-price-number">0</span>
+                        <span>تومان</span>
+                    </div>
+                </div>
+                <div class="food-card padding-8 rounded-8 d-flex flex-row-reverse justify-space-between position-relative">
+                    <div class="wrapper d-flex flex-row-reverse gap-10">
+                        <div class="card-image">
+                            <img src="./src//img/ceasar.png" alt="">
+                        </div>
+                        <div class="food-detail d-flex flex-col justify-space-between align-items-end">
+                            <div class="wrapper d-flex flex-col align-items-end">
+                                <h1 class="food-name">سالاد سزار</h1>
+                                <div class="food-price d-flex flex-row-reverse gap-4">
+                                    <span class="food-price-number">25000</span>
+                                    <span>تومان</span>
+                                </div>
+                            </div>
+                            <div class="counter d-flex">
+                                <button class="counter-btn-decrement"><i class="bi bi-dash fs-24"></i></button>
+                                <span
+                                    class="counter-number d-flex justify-content-center align-items-center w-20">0</span>
+                                <button class="counter-btn-increment"><i class="bi bi-plus fs-24"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-total-price d-flex flex-row-reverse gap-4 position-absolute left-8">
+                        <span class="food-total-price-number">0</span>
+                        <span>تومان</span>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <aside
+            class="white-2-bg-color w-330px padding-12 rounded-12 d-flex flex-col justify-space-between gap-40 position-relative">
+            <div class="wrapper d-flex flex-col gap-8">
+                <div class="total-ordered-price d-flex justify-space-between">
+                    <span>جمع کل سفارشات:</span>
+                    <div>
+                        <span class="total-ordered-price-text">0</span>
+                        <span>تومان</span>
+                    </div>
+                </div>
+                <div class="service-charge d-flex justify-space-between">
+                    <span>حق سرویس و کارمزد:</span>
+                    <div>
+                        <span class="total-service-charge-text">0</span>
+                        <span>تومان</span>
+                    </div>
+                </div>
+                <div class="discount-percent d-flex justify-space-between">
+                    <span>تخفیف:</span>
+                    <div>
+                        <span class="total-discount-text">0</span>
+                        <span>درصد</span>
+                    </div>
+                </div>
+                <p class="position-absolute"></p>
+                <div class="discount-code-input d-flex margin-top-8">
+                    <input class="w-100" type="ttext" placeholder="کد تخفیف">
+                    <button class="discount-btn"><i class="bi bi-check2 fs-24"></i></button>
+                </div>
+            </div>
+            <div class="wrapper d-flex flex-col gap-16">
+                <div class="total-price d-flex justify-space-between padding-8 rounded-4">
+                    <span>مبلغ قابل پرداخت:</span>
+                    <div>
+                        <span class="total-price-tex">0</span>
+                        <span class="font-weight-bold">تومان</span>
+                    </div>
+                </div>
+                <button class="w-100 padding-16 rounded-4 order-btn">ثبت سفارش</button>
+            </div>
+        </aside>
+    </div>
+    <div class="modal position-absolute w-100 h-100 d-flex justify-content-center align-items-center">
+        <div class="modal-window d-flex flex-col align-items-center gap-10 padding-40 rounded-12">
+            <span>سفارش شما با موفقیت ثبت شد</span>
+            <button class="close-modal-btn padding-12 rounded-12">باشه</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
