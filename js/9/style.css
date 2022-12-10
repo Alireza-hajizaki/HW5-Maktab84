@@ -1,0 +1,16 @@
+li{
+    width: 400px;
+    height: 80px;
+    background-color: antiquewhite;
+    list-style-type: none;
+    margin-top: 8px;
+    text-align: center;
+    padding-top: 40px;
+    position: relative;
+}
+li span{
+    position: absolute;
+    top:1px;
+    right: 1px;
+    cursor: pointer;
+}
